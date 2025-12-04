@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimus Auto Market</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header></header>
+
+    <section class="hero py-5 text-center text-white bg-dark">
+        <div class="container">
+            <h1 class="display-4">Hitta din drömbil idag</h1>
+            <p class="lead">Kvalitetsbilar till rätt pris – vi hjälper dig hitta rätt.</p>
+            <a href="#bil-container" class="btn btn-primary btn-lg mt-3">Se bilar</a>
+        </div>
+    </section>
+
+    <section class="search-filter py-4 bg-light">
+        <div class="container d-flex flex-column flex-md-row gap-3 justify-content-center">
+            <input type="text" id="bil-sok" class="form-control" placeholder="Sök efter bil...">
+            <select id="filter-märke" class="form-select">
+                <option value="">Alla märken</option>
+                <option value="Volvo">Volvo</option>
+                <option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+                <option value="Mercedes">Mercedes</option>
+            </select>
+            <select id="filter-år" class="form-select">
+                <option value="">Alla år</option>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+            </select>
+        </div>
+    </section>
+
+    <section id="bil-container" class="container py-5">
+        <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+    
+    <div class="col">
+        <div class="card h-100 shadow-sm">
+            <img src="xc90.jpg" class="card-img-top" alt="Volvo XC90">
+            <div class="card-body">
+                <h5 class="card-title">Volvo XC90 (Nuur Special) (2023)</h5>
+                <p class="card-text"><strong>Pris:</strong> 589,000 kr | <strong>Leasing:</strong> 7,499 kr/mån</p>
+                <p class="card-text"><strong>Drivmedel:</strong> El | <strong>Växellåda:</strong> Automat</p>
+                <p class="card-text"><strong>Körda mil:</strong> 1,200 km</p>
+                <a href="volvoxc90.html" class="btn btn-primary w-100 mt-2">Läs mer</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100 shadow-sm">
+            <img src="x5.webp" class="card-img-top" alt="BMW X5">
+            <div class="card-body">
+                <h5 class="card-title">BMW X5 (Shiva Edition) (2024)</h5>
+                <p class="card-text"><strong>Pris:</strong> 729,000 kr | <strong>Leasing:</strong> 9,299 kr/mån</p>
+                <p class="card-text"><strong>Drivmedel:</strong> Diesel | <strong>Växellåda:</strong> Automat</p>
+                <p class="card-text"><strong>Körda mil:</strong> 0 km</p>
+                <a href="x5.html" class="btn btn-primary w-100 mt-2">Läs mer</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100 shadow-sm">
+            <img src="audi.jpg" class="card-img-top" alt="Audi Q7">
+            <div class="card-body">
+                <h5 class="card-title">Audi Q7 (2025)</h5>
+                <p class="card-text"><strong>Pris:</strong> 799,000 kr | <strong>Leasing:</strong> 10,499 kr/mån</p>
+                <p class="card-text"><strong>Drivmedel:</strong> Bensin | <strong>Växellåda:</strong> Manuell</p>
+                <p class="card-text"><strong>Körda mil:</strong> 0 km</p>
+                <a href="q7.html" class="btn btn-primary w-100 mt-2">Läs mer</a>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="col">
+        <div class="card h-100 shadow-sm">
+            <img src="rs6.jpg" class="card-img-top" alt="Audi RS6">
+            <div class="card-body">
+                <h5 class="card-title">Audi RS6 (2025)</h5>
+                <p class="card-text"><strong>Pris:</strong> 1,299,000 kr | <strong>Leasing:</strong> 15,499 kr/mån</p>
+                <p class="card-text"><strong>Drivmedel:</strong> Diesel + El | <strong>Växellåda:</strong> Automat</p>
+                <p class="card-text"><strong>Körda mil:</strong> 0 km</p>
+                <a href="#" class="btn btn-primary w-100 mt-2">Läs mer</a>
+            </div>
+        </div>
+     </div>
+   <div class="col">
+        <div class="card h-100 shadow-sm">
+            <img src="e63.jpg" class="card-img-top" alt="Audi RS6">
+            <div class="card-body">
+                <h5 class="card-title">Mercedes E63 AMG (2023)</h5>
+                <p class="card-text"><strong>Pris:</strong> 1,199,000 kr | <strong>Leasing:</strong> 15,299 kr/mån</p>
+                <p class="card-text"><strong>Drivmedel:</strong> Bensin + El | <strong>Växellåda:</strong> Automat</p>
+                <p class="card-text"><strong>Körda mil:</strong> 450 km</p>
+                <a href="#" class="btn btn-primary w-100 mt-2">Läs mer</a>
+            </div>
+        </div>
+    </div>
+  
+    <div class="col">
+        <div class="card h-100 shadow-sm">
+            <img src="g63.jpg" class="card-img-top" alt="Audi RS6">
+            <div class="card-body">
+                <h5 class="card-title">Mercedes G63 AMG (2024)</h5>
+                <p class="card-text"><strong>Pris:</strong> 1,399,000 kr | <strong>Leasing:</strong> 15,299 kr/mån</p>
+                <p class="card-text"><strong>Drivmedel:</strong> Bensin + El | <strong>Växellåda:</strong> Automat</p>
+                <p class="card-text"><strong>Körda mil:</strong> 220 km</p>
+                <a href="#" class="btn btn-primary w-100 mt-2">Läs mer</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col">
+    <div class="card h-100 shadow-sm">
+        <img src="xc60-hybrid-og.avif" class="card-img-top" alt="Volvo XC60">
+        <div class="card-body">
+            <h5 class="card-title">Volvo XC60 (2024)</h5>
+            <p class="card-text"><strong>Pris:</strong> 529,000 kr | <strong>Leasing:</strong> 6,999 kr/mån</p>
+            <p class="card-text"><strong>Drivmedel:</strong> Bensin | <strong>Växellåda:</strong> Automat</p>
+            <p class="card-text"><strong>Körda mil:</strong> 500 km</p>
+            <a href="#" class="btn btn-primary w-100 mt-2">Läs mer</a>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100 shadow-sm">
+        <img src="nedladdning.jpg">
+        <div class="card-body">
+            <h5 class="card-title">BMW X3 (2023)</h5>
+            <p class="card-text"><strong>Pris:</strong> 589,000 kr | <strong>Leasing:</strong> 7,499 kr/mån</p>
+            <p class="card-text"><strong>Drivmedel:</strong> Diesel | <strong>Växellåda:</strong> Automat</p>
+            <p class="card-text"><strong>Körda mil:</strong> 2,000 km</p>
+            <a href="#" class="btn btn-primary w-100 mt-2">Läs mer</a>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100 shadow-sm">
+        <img src="q5.jpg" class="card-img-top" alt="Audi Q5">
+        <div class="card-body">
+            <h5 class="card-title">Audi Q5 (2024)</h5>
+            <p class="card-text"><strong>Pris:</strong> 679,000 kr | <strong>Leasing:</strong> 8,299 kr/mån</p>
+            <p class="card-text"><strong>Drivmedel:</strong> Bensin | <strong>Växellåda:</strong> Automat</p>
+            <p class="card-text"><strong>Körda mil:</strong> 100 km</p>
+            <a href="#" class="btn btn-primary w-100 mt-2">Läs mer</a>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100 shadow-sm">
+        <img src="glb.jpg" class="card-img-top" alt="Mercedes GLB">
+        <div class="card-body">
+            <h5 class="card-title">Mercedes GLB (2025)</h5>
+            <p class="card-text"><strong>Pris:</strong> 629,000 kr | <strong>Leasing:</strong> 7,999 kr/mån</p>
+            <p class="card-text"><strong>Drivmedel:</strong> Bensin | <strong>Växellåda:</strong> Automat</p>
+            <p class="card-text"><strong>Körda mil:</strong> 0 km</p>
+            <a href="#" class="btn btn-primary w-100 mt-2">Läs mer</a>
+        </div>
+    </div>
+</div>
+<div class="col">
+    <div class="card h-100 shadow-sm">
+        <img src="v60.jpg" class="card-img-top" alt="Volvo V60">
+        <div class="card-body">
+            <h5 class="card-title">Volvo V60 (2025)</h5>
+            <p class="card-text"><strong>Pris:</strong> 519,000 kr | <strong>Leasing:</strong> 6,499 kr/mån</p>
+            <p class="card-text"><strong>Drivmedel:</strong> Bensin | <strong>Växellåda:</strong> Automat</p>
+            <p class="card-text"><strong>Körda mil:</strong> 0 km</p>
+            <a href="#" class="btn btn-primary w-100 mt-2">Läs mer</a>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100 shadow-sm">
+        <img src="ix3.jpg" class="card-img-top" alt="BMW iX3">
+        <div class="card-body">
+            <h5 class="card-title">BMW iX3 (2025)</h5>
+            <p class="card-text"><strong>Pris:</strong> 739,000 kr | <strong>Leasing:</strong> 9,599 kr/mån</p>
+            <p class="card-text"><strong>Drivmedel:</strong> El | <strong>Växellåda:</strong> Automat</p>
+            <p class="card-text"><strong>Körda mil:</strong> 0 km</p>
+            <a href="#" class="btn btn-primary w-100 mt-2">Läs mer</a>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100 shadow-sm">
+        <img src="q3.jpg" class="card-img-top" alt="Audi q3">
+        <div class="card-body">
+            <h5 class="card-title">Audi Q3 (2024)</h5>
+            <p class="card-text"><strong>Pris:</strong> 499,000 kr | <strong>Leasing:</strong> 5,999 kr/mån</p>
+            <p class="card-text"><strong>Drivmedel:</strong> Besin | <strong>Växellåda:</strong> Automat</p>
+            <p class="card-text"><strong>Körda mil:</strong> 200 km</p>
+            <a href="#" class="btn btn-primary w-100 mt-2">Läs mer</a>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100 shadow-sm">
+        <img src="a class.jpg" class="card-img-top" alt="Mercedes AClass">
+        <div class="card-body">
+            <h5 class="card-title">Mercedes A-Class Sedan (2023)</h5>
+            <p class="card-text"><strong>Pris:</strong> 429,000 kr | <strong>Leasing:</strong> 5,499 kr/mån</p>
+            <p class="card-text"><strong>Drivmedel:</strong> Bensin | <strong>Växellåda:</strong> Automat</p>
+            <p class="card-text"><strong>Körda mil:</strong> 1,500 km</p>
+            <a href="#" class="btn btn-primary w-100 mt-2">Läs mer</a>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100 shadow-sm">
+        <img src="s53.jpg" class="card-img-top" alt="Mercedes A-Class">
+        <div class="card-body">
+            <h5 class="card-title">Mercedes S53 (2024)</h5>
+            <p class="card-text"><strong>Pris:</strong> 1,229,000 kr | <strong>Leasing:</strong> 5,499 kr/mån</p>
+            <p class="card-text"><strong>Drivmedel:</strong> El + Bensin | <strong>Växellåda:</strong> Automat</p>
+            <p class="card-text"><strong>Körda mil:</strong> 1,200 km</p>
+            <a href="#" class="btn btn-primary w-100 mt-2">Läs mer</a>
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+
+    <footer>
+        <p>&copy; 2025 Optimus Auto Market | All rights reserved</p>
+    </footer>
+
+    <script src="init.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
