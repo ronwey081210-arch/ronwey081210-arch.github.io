@@ -446,7 +446,3 @@ footer a:hover {
 .location-card:hover {
     transform: translateY(-5px);
 }
-
-html, body {
-    overflow-x: hidden;
-}
