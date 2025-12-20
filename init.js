@@ -22,7 +22,7 @@ let header = document.getElementsByTagName("Header");
               <a class="nav-link" href="recensioner.html">Recensioner</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Kontakt.html">Kontakt</a>
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
             </li>
           </ul>
         </div>
